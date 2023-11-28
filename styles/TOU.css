@@ -1,0 +1,98 @@
+/* DEVELOPER: Samuel Ilagan, IS117-001, Fall 2023  */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+  }
+
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+  
+  .Webpage_title {
+    font-size: 36px;
+    color: rgb(251, 227, 15);
+    text-align: middle;
+  }
+  
+  .container {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* styles for the navbar */
+  .navbar {
+    background-color: #fff; /* Background color for navbar */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .navbar-nav {
+    margin-left: auto; /* Pushing nav items to the right */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 20px; /* Spacing between nav items */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333; /* Link color */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Link color on hover */
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown-menu {
+    background-color: #fff; /* Dropdown background color */
+    border: none; /* Removing border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .dropdown-menu .dropdown-item {
+    color: #333; /* Dropdown item color */
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+  }
+
+  /* Link styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+  /* styles for footer */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    color: #888;
+    margin-top: auto;
+  }

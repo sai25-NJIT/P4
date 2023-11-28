@@ -1,0 +1,152 @@
+/* DEVELOPER: Samuel Ilagan, IS117-001, Fall 2023  */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .Webpage_title {
+    font-size: 36px;
+    color: rgb(251, 227, 15);
+    text-align: middle;
+  }
+  
+  .container {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  /* styles for the navbar */
+  .navbar {
+    background-color: #fff; /* Background color for navbar */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .navbar-nav {
+    margin-left: auto; /* Pushing nav items to the right */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 20px; /* Spacing between nav items */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333; /* Link color */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Link color on hover */
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown-menu {
+    background-color: #fff; /* Dropdown background color */
+    border: none; /* Removing border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .dropdown-menu .dropdown-item {
+    color: #333; /* Dropdown item color */
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+  }
+
+  /* styles for the image carousel */
+  .carousel-container {
+    max-width: 600px; 
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding for space */
+  }
+
+  .carousel-inner img {
+    max-height: 400px; 
+    max-width: fit-content;
+    width: auto; /* Maintain aspect ratio */
+    margin: auto; /* Center the image horizontally */
+  }
+
+  #carouselExampleIndicators {
+    background-color: #FFFDD0; /* Set the background color to cream */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 1;
+    transition: opacity 0.3s ease; /* Add a smooth transition effect */
+  }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); 
+  /* Invert the color of the controls to make it visible on a cream background */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 0.7; /* Reduce opacity on hover for a visual effect */
+}
+
+/* styles for the main element */
+main .About-Culinary-Chronicles {
+  margin: 2em auto;
+  padding: 50px;
+  width: 50%;
+  border: 2px solid #888;
+  text-align: center;    
+}
+
+main .About-Culinary-Chronicles-Description {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+main .social-media-card {
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px; /* Adjust the maximum width of the card */
+    margin: 0 auto;
+
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+main .social-media-card img {
+    width: 100%; /* Make the image fill its container */
+    max-width: 100px; /* Adjust the maximum width of the image */
+    height: auto;
+}
+
+main .wrapper {
+  flex-grow: 1; /* Allows the wrapper to grow and push footer to the bottom */
+}
+
+/* styles for footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    color: #888;
+    margin-top: auto;
+}
+
+  

@@ -1,0 +1,137 @@
+<!-- DEVELOPER: Samuel Ilagan, IS117-001, Fall 2023 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="styles/HomePage.css">
+  <title>Bootstrap Navigation Bar</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+</head>
+<body>
+
+  <!-- NavBar Bootstrap CSS -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Your Logo</a>
+        <p class="Webpage_title"><strong>CULINARY CHRONICLES</strong></p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <!-- Two Tier Navigation -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Food
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="FoodPage.html">Recipes</a></li>
+                  <li><a class="dropdown-item" href="FoodPlannerPage.html">Food Planner</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Favorites.html">Favorites</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ContactUs.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+
+  <!-- Page Title -->
+  <div class="container">
+    <h1>Home</h1>
+  </div>
+
+  <!-- Bootstrap Image Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/main-qimg-981ceae310b1cf68e367f110ae991ff0-lq.jpeg" class="d-block w-100" alt="Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="images/steak-1.jpeg" class="d-block w-100" alt="Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Seafood.png" class="d-block w-100" alt="Image 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery (Optional for some features) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <main class="wrapper">
+    <h3 class="About-Culinary-Chronicles">
+        About Culinary Chronicles
+    </h3>
+
+    <p class="About-Culinary-Chronicles-Description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <!-- Social Media Cards -->
+    <div class="social-media-card">
+        <img src="images/Instagram.jpeg" alt="Instagram Logo">
+        <h2 class="social-media-title">Instagram</h2>
+        <p class="social-media-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+    </div>
+
+    <div class="social-media-card">
+        <img src="images/twitter.jpeg" alt="Twitter Logo">
+        <h2 class="social-media-title">Twitter</h2>
+        <p class="social-media-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+    </div>
+
+    <div class="social-media-card">
+        <img src="images/facebook.jpeg" alt="Facebook Logo">
+        <h2 class="social-media-title">Facebook</h2>
+        <p class="social-media-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>&copy; 2023 Samuel Ilagan. All rights reserved.</p>
+          <p>
+            <a href="PrivacyPage.html">Privacy Policy</a> | 
+            <a href="TOU.html">Terms of Use</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
